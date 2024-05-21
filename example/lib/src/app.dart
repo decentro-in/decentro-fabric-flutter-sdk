@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
     // Whenever the user updates their settings, the MaterialApp is rebuilt.
 
     /// UIStream session URL
-    const uistreamUrl = "";
+    const uistreamUrl = "<Your generated UIStream URL>";
 
     return ListenableBuilder(
       listenable: settingsController,
@@ -74,8 +74,7 @@ class MyApp extends StatelessWidget {
                 switch (routeSettings.name) {
                   case "/uistream":
                     return const UIStreamWebView(
-                      uistreamUrl:
-                          'https://platform.onmeta.in/?apiKey=6af803df-0e0e-4708-805f-87baa8653e97&userEmail=joshasdasdc626@gmail.comjjkdf',
+                      uistreamUrl: uistreamUrl,
                     );
                   case SettingsView.routeName:
                     return SettingsView(controller: settingsController);

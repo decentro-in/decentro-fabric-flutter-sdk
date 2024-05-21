@@ -1,3 +1,7 @@
+## 0.1.2
+
+- Updated minimum required versions for dart and flutter sdk
+
 ## 0.1.1
 
 - Added an example app

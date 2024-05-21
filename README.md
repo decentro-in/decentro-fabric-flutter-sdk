@@ -17,7 +17,7 @@ Welcome to the **Decentro Fabric SDK**! This Flutter SDK allows you to seamlessl
 
    ```yaml
    dependencies:
-     decentrotech_fabric: ^0.1.1
+     decentrotech_fabric: ^0.1.2
    ```
 
 2. **Usage**:
@@ -33,8 +33,10 @@ Welcome to the **Decentro Fabric SDK**! This Flutter SDK allows you to seamlessl
     UIStreamWebView(
       uistreamUrl: "<uistream_session_link>",
     );
+   ```
 
-   // Configure UIStream Route
+   ```dart
+   // Example: Configure UIStream Route
    onGenerateRoute: (RouteSettings routeSettings) {
     return MaterialPageRoute<void>(
         settings: routeSettings,
